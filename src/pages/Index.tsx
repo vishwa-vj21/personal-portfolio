@@ -8,7 +8,7 @@ import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
 import AchievementsSection from "@/components/AchievementsSection";
-import CertificatesSection from "@/components/CertificatesSection";
+import CertificatesSection from "@/components/certificatesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
