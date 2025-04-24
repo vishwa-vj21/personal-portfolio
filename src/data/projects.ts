@@ -41,7 +41,7 @@ export const projects: Project[] = [
     image: "/imgs/notes.png",
     tags: ["React", "Node.Js", "MongoDB", "Express","Authentication"],
     links: {
-      github: "https://github.com/AathifZahir/ProIntern",
+      github: "https://github.com/eshaalal/notes_app",
       live: "https://notesbuddy.vercel.app/"
     },
   },
