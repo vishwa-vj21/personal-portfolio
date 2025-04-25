@@ -28,7 +28,7 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     const formPayload = {
-      access_key: "6c14b370-ac51-45bc-b933-1a3ed381b3d1",
+      access_key: "91486fd8-d3ef-451b-9fb9-eb12e239db3a",
       ...formData,
     };
 
@@ -164,7 +164,7 @@ const ContactSection = () => {
               <input
                 type="hidden"
                 name="access_key"
-                value="6c14b370-ac51-45bc-b933-1a3ed381b3d1"
+                value="91486fd8-d3ef-451b-9fb9-eb12e239db3a"
               />
               <input
                 type="hidden"
@@ -183,7 +183,7 @@ const ContactSection = () => {
                   <Input
                     id="name"
                     name="name"
-                    placeholder="Example"
+                    placeholder="example"
                     value={formData.name}
                     onChange={handleChange}
                     required
