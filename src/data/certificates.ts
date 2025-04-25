@@ -42,7 +42,7 @@ export const certificates: Certificate[] = [
     id: 3,
     title: "Postman API Fundamentals Student Expert",
     issuer: "Postman",
-    date: "23-Oct-2024 ",
+    date: "Oct 2024 ",
     description: "Postman Student Experts are proficient in the essential skills required for consuming APIs in Postman and applications.",
     imageUrl: "/images/postman2.png",
     credentialUrl: "https://badgr.com/public/assertions/PF25_sA-RdSw1m64PqkTmg?identity__email=eshalal888@gmail.com",

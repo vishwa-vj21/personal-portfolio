@@ -46,7 +46,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "JavaScript", icon: getSimpleIcon("Javascript"), color: "#F7DF1E" },
       { name: "Java", icon: getSimpleIcon("Java"), color: "#007396" },
       { name: "Python", icon: getSimpleIcon("Python"), color: "#3776AB" },
-      { name: "TypeScript", icon: getSimpleIcon("Typescript"), color: "#3178C6" },
+      { name: "C++", icon: getSimpleIcon("Cplusplus"), color: "#00599C" },
       { name: "HTML/CSS", icon: getSimpleIcon("Html5"), color: "#E34F26" },
     ],
   },
@@ -54,9 +54,8 @@ export const skillCategories: SkillCategory[] = [
     name: "Frontend Development",
     icon: Layout,
     skills: [
-      { name: "React", icon: getSimpleIcon("React"), color: "#61DAFB" },
-      { name: "React Native", icon: getSimpleIcon("React"), color: "#61DAFB" },
-      { name: "Next.js", icon: getSimpleIcon("Nextdotjs"), color: "#000000" },
+      { name: "React", icon: getSimpleIcon("React"), color: "#E23237" },
+      { name: "Angular.js", icon: getSimpleIcon("Angularjs"), color: "#E23237" },
       { name: "Tailwind CSS", icon: getSimpleIcon("Tailwindcss"), color: "#06B6D4" },
     ],
   },
@@ -66,7 +65,6 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Node.js", icon: getSimpleIcon("Nodedotjs"), color: "#339933" },
       { name: "Express.js", icon: getSimpleIcon("Express"), color: "#000000" },
-      { name: "Spring Boot", icon: getSimpleIcon("Spring"), color: "#6DB33F" },
       { name: "REST APIs", icon: getSimpleIcon("Postman"), color: "#FF6C37" },
     ],
   },
@@ -76,7 +74,6 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "MongoDB", icon: getSimpleIcon("Mongodb"), color: "#47A248" },
       { name: "MySQL", icon: getSimpleIcon("Mysql"), color: "#4479A1" },
-      { name: "Firebase", icon: getSimpleIcon("Firebase"), color: "#FFCA28" },
       { name: "PostgreSQL", icon: getSimpleIcon("Postgresql"), color: "#4169E1" },
     ],
   },
@@ -86,6 +83,8 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Git", icon: getSimpleIcon("Git"), color: "#F05032" },
       { name: "Agile/Scrum", icon: getSimpleIcon("Jira"), color: "#0052CC" },
+      { name: "Vercel", icon: getSimpleIcon("Vercel"), color: "#000000" },
+      { name: "Postman", icon: getSimpleIcon("Postman"), color: "#FF6C37" },
     ],
   },
   {
