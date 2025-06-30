@@ -38,9 +38,9 @@ const Navbar = () => {
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
-    { name: "Achievements", href: "#achievements" },
+    // { name: "Achievements", href: "#achievements" },
     { name: "Certificates", href: "#certificates" },
-    { name: "Contact", href: "#contact" }
+    { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center">
             <a href="/">
-              <span className="text-xl font-bold text-primary">esha.lal()</span>
+              <span className="text-xl font-bold text-primary">VS.</span>
             </a>
           </div>
 
@@ -79,7 +79,7 @@ const Navbar = () => {
                 asChild
                 onClick={handledownload}
               >
-                <a href={resumeUrl} download="Esha_Lal_CV.pdf">
+                <a href={resumeUrl} download="Vishwajith S_Lal_CV.pdf">
                   Resume
                 </a>
               </Button>
@@ -143,7 +143,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button size="sm" className="ml-3 mt-2" asChild>
-              <a href={resumeUrl} download="Esha_Lal_CV.pdf">
+              <a href={resumeUrl} download="Vishwajith S_Lal_CV.pdf">
                 Resume
               </a>
             </Button>

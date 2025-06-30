@@ -1,9 +1,10 @@
 export const Links = {
-    github: "https://github.com/eshaalal",
-    linkedin: "https://www.linkedin.com/in/eshalal2/",
-    email: "mailto:eshalal888@gmail.com",
-    resume: "https://drive.google.com/file/d/1IvsK4xM2An7Q_EnhDc6TAjjKRYw1qCkj/view?usp=sharing",
-    emailonly: "eshalal9693@gmail.com",
-    location: "Punjab, India",
-    phone: "+91 9693136147",
-  };
+  github: "https://github.com/vishwa-vj21",
+  linkedin: "https://www.linkedin.com/in/iamvishwajith/",
+  email: "mailto:iamvishwajith.s@gmail.com",
+  resume:
+    "https://drive.google.com/file/d/1ZvAhHZ7DBOJU2jw_2hoFWtvUt4tXWhJe/view?usp=sharing",
+  emailonly: "iamvishwajith.s@gmail.com",
+  location: "Chennai, India",
+  phone: "+91 8122702599",
+};

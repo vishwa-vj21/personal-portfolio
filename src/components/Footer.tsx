@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-center md:text-left">
-            <span className="text-2xl font-bold text-primary">esha.lal()</span>
+            <span className="text-2xl font-bold text-primary">VS.</span>
             <p className="mt-2 text-muted-foreground max-w-md">
               Building elegant digital solutions with a focus on user experience
               and technical excellence.
@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
             <div className="text-gray-400 text-sm text-right">
               <p>
-                © {currentYear} Esha Lal | Built with React and Tailwind
+                © {currentYear} Vishwajith S | Built with React and Tailwind
               </p>
             </div>
           </div>

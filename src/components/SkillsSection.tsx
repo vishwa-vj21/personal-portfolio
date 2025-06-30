@@ -99,10 +99,13 @@ const SkillsSection = () => {
                     }}
                     whileTap={{ scale: 0.98 }}
                   >
-                    {skill.icon && React.createElement(skill.icon, {
-                      className: "h-3 w-3",
-                      style: { color: skill.color }
-                    })}
+                    {skill.icon && (
+                      <span style={skill.color ? { color: skill.color } : undefined}>
+                        {React.createElement(skill.icon, {
+                          className: "h-3 w-3"
+                        })}
+                      </span>
+                    )}
                     {skill.name}
                   </motion.span>
                 ))}

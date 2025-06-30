@@ -76,11 +76,18 @@ const AboutSection = () => {
                 <FileText className="w-5 h-5 text-primary" /> Bio
               </h3>
               <p className="text-muted-foreground">
-              Full-stack developer with MERN expertise, top-tier open-source achievements and competitive coding prowess.
-              Passionate about crafting impactful solutions through clean architecture and intuitive UI/UX design focused on elevating user experience.
+                Detail-oriented and enthusiastic Full Stack Developer proficient
+                in building responsive, scalable web applications using modern
+                front-end and back-end technologies. Experienced in academic and
+                freelance projects, including the development of a full-featured
+                freelancing platform. Passionate about creating impactful,
+                user-centric solutions and intuitive UI/UX design focused on
+                elevating user experience.
               </p>
             </motion.div>
-
+            <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
+              <GraduationCap className="w-5 h-5 text-primary" /> Education
+            </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <motion.div
                 variants={itemVariants}
@@ -93,18 +100,16 @@ const AboutSection = () => {
                   <CardContent className="pt-6">
                     <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
                       <GraduationCap className="w-5 h-5 text-primary" />{" "}
-                      Education
                     </h3>
                     <div className="space-y-2">
-                      <p className="font-medium">Bachelors of Technology</p>
-                      <p className="text-sm text-muted-foreground">
-                        LPU (Lovely Professional University)
+                      <p className="font-medium">
+                        B.Tech in Computer Science and Engineering
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        2022 - Present
+                        Indian Institute of Information Technology, Sricity
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        Dean's List 
+                        2021 - Present
                       </p>
                     </div>
                   </CardContent>
@@ -121,21 +126,19 @@ const AboutSection = () => {
                 <Card className="h-full border-primary/10 bg-card/50 backdrop-blur-sm">
                   <CardContent className="pt-6">
                     <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-                      <Briefcase className="w-5 h-5 text-primary" /> Experience
+                      <GraduationCap className="w-5 h-5 text-primary" />{" "}
                     </h3>
-                    <div className="space-y-4">
-                      <div>
-                        <p className="font-medium">
-                          Backend Developer Intern
-                        </p>
-                        <p className="text-sm text-muted-foreground">
-                          Errsole - Green Code Private Limited
-                        </p>
-                        <p className="text-sm text-muted-foreground">
-                          July 2024 - August 2024
-                        </p>
-                      </div>
-                      
+                    <div className="space-y-2">
+                      <p className="font-medium">
+                        Higher Secondary, Computer Science
+                      </p>
+                      <br />
+                      <p className="text-sm text-muted-foreground">
+                        DAV Higher Secondary School, Chennai
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        2019– 2021
+                      </p>
                     </div>
                   </CardContent>
                 </Card>
@@ -159,21 +162,18 @@ const AboutSection = () => {
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
                   src="/imgs/me.png"
-                  alt="Esha Lal"
+                  alt="Vishwajith S"
                   loading="lazy"
                 />
-                <AvatarFallback>esha.lal()</AvatarFallback>
+                <AvatarFallback>Vishwajith S.lal()</AvatarFallback>
               </Avatar>
-              <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
+              {/* <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
                 8.37 GPA
-              </div>
+              </div> */}
             </motion.div>
 
-            <motion.div
-              variants={itemVariants}
-              className="text-center"
-            >
-              <h3 className="text-2xl font-bold">Esha Lal</h3>
+            <motion.div variants={itemVariants} className="text-center">
+              <h3 className="text-2xl font-bold">Vishwajith S</h3>
               <p className="text-muted-foreground">
                 Computer Science Engineering Student
               </p>
@@ -190,9 +190,8 @@ const AboutSection = () => {
                 UI/UX
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                Cloud Architecture
+                MongoDB
               </Badge>
-              
             </motion.div>
 
             <motion.div

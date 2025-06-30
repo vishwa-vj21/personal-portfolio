@@ -8,7 +8,7 @@ interface SeoProps {
 }
 
 const Seo = ({
-  title = "Esha Lal | Software Engineering Student",
+  title = "Vishwajith S | Software Engineering Student",
   description = "Portfolio website of Aathif Zahir, a software engineering student specializing in full-stack development.",
   keywords = "Aathif Zahir, software engineering, full-stack developer, React, portfolio, projects",
   ogImage = "/suitcase.png",

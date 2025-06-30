@@ -1,4 +1,3 @@
-
 export type Project = {
   id: number;
   title: string;
@@ -14,45 +13,49 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Kissan Bazaar - Online market place for farmers",
-    description: " A farmer-buyer marketplace with 2-way posting (farmers listing crops, buyers posting requirements) and integrated dashboards. ",
-    image: "/imgs/kisaan.png",
-    tags: ["Raect", "Express", "Node.Js", "MongoDB","JWT"],
+    title: "Lancify – Freelancing Website",
+    description:
+      "A full-featured web platform that connects freelancers with clients across various service domains with intuitive UX and real-time interaction.",
+    image: "/imgs/lancify.png",
+    tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js"],
     links: {
-      github: "https://github.com/eshaalal/Kisaan_Bazar",
-      live: "https://kisaan-bazar.vercel.app",
+      github: "https://github.com/vishwa-vj21/Lancify",
+      live: "https://lancify.vercel.app", // replace with actual live URL if deployed
     },
   },
   {
     id: 2,
-    title: "Summer Safe - Luggage Storage Booking",
-    description: "A web platform with 24/7 accessibility, enabling students to book luggage storage facilities and locals to rent out extra space. ",
-    image: "/imgs/summer.png",
-    tags: ["HTML","CSS", "Node.js", "Express", "MongoDB","HandleBars","BootStrap"],
+    title: "CodexScan – AI-Powered Code Reviewer",
+    description:
+      "A code review tool using Node.js/Express and Gemini LLM API to provide real-time structured feedback on code quality, security, and performance improvements.",
+    image: "/imgs/codexscan.png",
+    tags: ["Node.js", "Express.js", "API", "LLM", "AI"],
     links: {
-      github: "https://github.com/eshaalal/summersafe-LuggageBookingWebsite",
-      live: "https://summersafe.vercel.app/",
+      github: "https://github.com/vishwa-vj21/CodexScan",
+      live: "", // add live URL if hosted
     },
   },
   {
     id: 3,
-    title: "NotesBuddy - Note taking website",
-    description: "NotedBuddy is a web-based note-making application designed to help users create, manage, and organize their notes efficiently.",
-    image: "/imgs/notes.png",
-    tags: ["React", "Node.Js", "MongoDB", "Express","Authentication"],
+    title: "ResumeRadar – AI-Powered Resume Analyzer",
+    description:
+      "An NLP-based resume screening tool that extracts, scores, and recommends skills based on job relevance using PyResparser, spaCy, and LLM insights.",
+    image: "/imgs/resumeradar.png",
+    tags: ["Python", "NLP", "Streamlit", "spaCy", "AI"],
     links: {
-      github: "https://github.com/eshaalal/notes_app",
-      live: "https://notesbuddy.vercel.app/"
+      github: "https://github.com/vishwa-vj21/ResumeRadar",
+      live: "", // add live URL if hosted
     },
   },
   {
     id: 4,
     title: "StudyNotion",
-    description: "A seamless and interactive learning experience for students, and a platform for instructors to showcase their expertise and connect with learners across the globe.",
+    description:
+      "A seamless and interactive learning experience for students, and a platform for instructors to showcase their expertise and connect with learners across the globe.",
     image: "/imgs/Ed.png",
     tags: ["React", "Tailwind CSS", "Redux", "MongoDB"],
     links: {
-      github: "https://github.com/eshaalal/codeplay?tab=readme-ov-file",
+      github: "https://github.com/Vishwajith Salal/codeplay?tab=readme-ov-file",
       live: "https://codeplay-edtech-project.vercel.app/",
     },
   },
