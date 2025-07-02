@@ -6,6 +6,7 @@ import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { Links } from "@/data/links";
 
+const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY;
 const ContactSection = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
@@ -28,7 +29,7 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     const formPayload = {
-      access_key: "91486fd8-d3ef-451b-9fb9-eb12e239db3a",
+      access_key: WEB3FORMS_KEY,
       ...formData,
     };
 
@@ -161,11 +162,7 @@ const ContactSection = () => {
               className="space-y-6 bg-card p-6 rounded-lg shadow-sm border border-border"
               onSubmit={handleSubmit}
             >
-              <input
-                type="hidden"
-                name="access_key"
-                value="91486fd8-d3ef-451b-9fb9-eb12e239db3a"
-              />
+              <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
               <input
                 type="hidden"
                 name="redirect"
