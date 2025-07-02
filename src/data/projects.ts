@@ -39,7 +39,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Threadly – Reddit-Inspired Community Platform",
     description:
-      "A full-stack social discussion platform enabling users to create posts with rich content, comment with nested replies, and interact within communities and advanced caching for a seamless user experience.",
+      "A full-stack social discussion platform enabling users to create posts with rich content, comment with nested replies, interact within communities and advanced caching for a seamless user experience.",
     image: "/imgs/threadly.png",
     tags: [
       "Next.js",
