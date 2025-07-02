@@ -35,8 +35,20 @@ export const projects: Project[] = [
       live: "", // add live URL if hosted
     },
   },
+    {
+  id: 3,
+  title: "Threadly – Reddit-Inspired Community Platform",
+  description:
+    "A full-stack social discussion platform enabling users to create posts with rich content, comment with nested replies, and interact within communities, featuring Google authentication, infinite scrolling, and advanced caching for a seamless user experience.",
+  image: "/imgs/threadly.png",
+  tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Prisma", "Upstash Redis", "NextAuth"],
+  links: {
+    github: "https://github.com/vishwa-vj21/Threadly",
+    live: "", //add live URL if hosted
+  },
+},
   {
-    id: 3,
+    id: 4,
     title: "ResumeRadar – AI-Powered Resume Analyzer",
     description:
       "An NLP-based resume screening tool that extracts, scores, and recommends skills based on job relevance using PyResparser, spaCy, and LLM insights.",
@@ -47,16 +59,5 @@ export const projects: Project[] = [
       live: "", // add live URL if hosted
     },
   },
-  {
-    id: 4,
-    title: "StudyNotion",
-    description:
-      "A seamless and interactive learning experience for students, and a platform for instructors to showcase their expertise and connect with learners across the globe.",
-    image: "/imgs/Ed.png",
-    tags: ["React", "Tailwind CSS", "Redux", "MongoDB"],
-    links: {
-      github: "https://github.com/Vishwajith Salal/codeplay?tab=readme-ov-file",
-      live: "https://codeplay-edtech-project.vercel.app/",
-    },
-  },
+
 ];

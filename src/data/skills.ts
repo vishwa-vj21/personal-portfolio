@@ -54,6 +54,8 @@ export const skillCategories: SkillCategory[] = [
       { name: "C++", icon: getSimpleIcon("Cplusplus"), color: "#00599C" },
       { name: "C", icon: getSimpleIcon("C"), color: "#A8B9CC" },
       { name: "HTML/CSS", icon: getSimpleIcon("Html5"), color: "#E34F26" },
+      { name: "TypeScript", icon: getSimpleIcon("Typescript"), color: "#3178C6" },
+     
     ],
   },
   {
@@ -61,6 +63,7 @@ export const skillCategories: SkillCategory[] = [
     icon: Layout,
     skills: [
       { name: "React", icon: getSimpleIcon("React"), color: "#E23237" },
+      { name: "Radix UI", icon: getSimpleIcon("radixui"), color: "#000000" },
       {
         name: "Bootstrap",
         icon: getSimpleIcon("Bootstrap"),
@@ -71,6 +74,7 @@ export const skillCategories: SkillCategory[] = [
         icon: getSimpleIcon("Tailwindcss"),
         color: "#06B6D4",
       },
+      
     ],
   },
   {
@@ -80,6 +84,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Node.js", icon: getSimpleIcon("Nodedotjs"), color: "#5FA04E" },
       { name: "Express.js", icon: getSimpleIcon("Express"), color: "#000000" },
       { name: "REST APIs", icon: getSimpleIcon("Postman"), color: "#FF6C37" },
+      { name: "JWT", icon: getSimpleIcon("Jsonwebtokens"), color: "#000000" },
     ],
   },
   {
@@ -93,6 +98,7 @@ export const skillCategories: SkillCategory[] = [
         icon: getSimpleIcon("Prisma"),
         color: "#4169E1",
       },
+      {name: "Redis", icon: getSimpleIcon("Redis"), color: "#DC382D" },
     ],
   },
   {
@@ -101,8 +107,17 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Git", icon: getSimpleIcon("Git"), color: "#F05032" },
       { name: "Bash", icon: getSimpleIcon("Bash"), color: "#0052CC" },
-      { name: "Docker", icon: getSimpleIcon("Docker"), color: "#000000" },
+      {
+        name: "Docker",
+        icon: getSimpleIcon("Docker"),
+        color: "#2496ED",
+      },
       { name: "Postman", icon: getSimpleIcon("Postman"), color: "#FF6C37" },
+      { name: "Vercel", icon: getSimpleIcon("Vercel"), color: "#000000" },
+      
+      { name: "zod", icon: getSimpleIcon("Zod"), color: "#2D3748" },
+      { name: "Axios", icon: getSimpleIcon("Axios"), color: "#5A29E4" },
+      
     ],
   },
 ];
