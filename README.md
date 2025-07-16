@@ -125,4 +125,6 @@ I’m open to collaborations, opportunities, or just a chat!
 Parts of this project were inspired by or adapted from code by [Aathif Zahir](https://github.com/aathifzahir).  
 Special thanks for their valuable full stack development resources and examples.
 
+---
+
 > © 2025 Vishwajith. Built with ❤️ using React, TypeScript, and Tailwind CSS.
