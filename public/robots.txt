@@ -1,0 +1,6 @@
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aathifzahir.com/sitemap.xml
