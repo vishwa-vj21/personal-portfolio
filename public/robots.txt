@@ -2,5 +2,6 @@
 User-agent: *
 Allow: /
 
+
 # Sitemap location
-Sitemap: https://aathifzahir.com/sitemap.xml
+Sitemap: https://vishwa-dev.vercel.app/sitemap.xml

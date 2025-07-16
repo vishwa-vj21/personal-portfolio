@@ -1,4 +1,4 @@
-# 🚀 Aathif Zahir – Full Stack Developer Portfolio
+# 🚀 Vishwajith S – Full Stack Developer Portfolio
 
 [![Portfolio](https://img.shields.io/badge/Live%20Portfolio-blueviolet?style=for-the-badge&logo=vercel&logoColor=white)](https://aathifzahir.dev)
 [![GitHub Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aathifzahir/portfolio)
@@ -14,7 +14,7 @@
 
 ## ✨ Overview
 
-Welcome to the personal portfolio of **Aathif Zahir**, a passionate Software Engineering undergraduate with a strong focus on **full-stack web development**. This portfolio is a reflection of my journey, skills, projects, and achievements — built with a modern tech stack and polished UI/UX.
+Welcome to the personal portfolio of **Vishwajith S**, a passionate Software Engineering undergraduate with a strong focus on **full-stack web development**. This portfolio is a reflection of my journey, skills, projects, and achievements — built with a modern tech stack and polished UI/UX.
 
 ---
 
@@ -31,14 +31,14 @@ Welcome to the personal portfolio of **Aathif Zahir**, a passionate Software Eng
 
 ## 🛠️ Tech Stack
 
-| Category        | Tech Used                                      |
-|----------------|------------------------------------------------|
-| Frontend       | React (TypeScript), Vite                       |
-| Styling        | Tailwind CSS, Custom & Radix UI Components     |
-| State & Routing| React Query, React Router DOM                  |
-| Animations     | Framer Motion                                  |
-| Form Handling  | Web3Forms API                                  |
-| Linting/Format | ESLint, Prettier                               |
+| Category        | Tech Used                                  |
+| --------------- | ------------------------------------------ |
+| Frontend        | React (TypeScript), Vite                   |
+| Styling         | Tailwind CSS, Custom & Radix UI Components |
+| State & Routing | React Query, React Router DOM              |
+| Animations      | Framer Motion                              |
+| Form Handling   | Web3Forms API                              |
+| Linting/Format  | ESLint, Prettier                           |
 
 ---
 
@@ -71,7 +71,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/aathifzahir/portfolio.git
+git clone https://github.com/vishwa-vj21/personal-portfolio.git
 cd portfolio
 
 # Install dependencies
@@ -114,10 +114,10 @@ vercel deploy --prod
 
 I’m open to collaborations, opportunities, or just a chat!
 
-- 📧 [aathif@example.com](mailto:aathif@example.com)
-- 💼 [LinkedIn](https://linkedin.com/in/aathifzahir)
-- 💻 [GitHub](https://github.com/aathifzahir)
+- 📧 [Gmail](mailto:iamvishwajith.s@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/iamvishwajith/)
+- 💻 [GitHub](https://github.com/vishwa-vj21)
 
 ---
 
-> © 2025 Aathif Zahir. Built with ❤️ using React, TypeScript, and Tailwind CSS.
+> © 2025 Vishwajith. Built with ❤️ using React, TypeScript, and Tailwind CSS.

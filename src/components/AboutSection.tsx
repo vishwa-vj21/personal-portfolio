@@ -200,7 +200,7 @@ const AboutSection = () => {
               whileTap={{ scale: 0.98 }}
             >
               <Button className="gap-2" asChild onClick={handledownload}>
-                <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+                <a href={resumeUrl} download="Vj-fullstack.pdf">
                   <Download className="w-4 h-4" />
                   Download Resume
                 </a>
