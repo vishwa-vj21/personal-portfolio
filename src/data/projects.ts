@@ -13,6 +13,26 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Threadly – Reddit-Inspired Community Platform",
+    description:
+      "A full-stack social discussion platform enabling users to create posts with rich content, comment with nested replies, interact within communities and advanced caching for a seamless user experience.",
+    image: "/imgs/threadly.png",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "Upstash Redis",
+      "NextAuth",
+    ],
+    links: {
+      github: "https://github.com/vishwa-vj21/Threadly",
+      live: "https://threadly-one.vercel.app/", //add live URL if hosted
+    },
+  },
+  {
+    id: 2,
     title: "Lancify – Freelancing Website",
     description:
       "A full-featured web platform that connects freelancers with clients across various service domains with intuitive UX and real-time interaction.",
@@ -24,7 +44,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 2,
+    id: 3,
     title: "CodexScan – AI-Powered Code Reviewer",
     description:
       "A code review tool using Node.js/Express and Gemini LLM API to provide real-time structured feedback on code quality, security, and performance improvements.",
