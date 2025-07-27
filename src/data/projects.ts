@@ -57,9 +57,9 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Memora – AI Markdown Notes SaaS",
+    title: "Memora – Modern SaaS Platform",
     description:
-      "A full-stack AI-powered markdown notes SaaS featuring intelligent PDF viewing, streaming AI responses, and infinite memory via LangChain. Built with a modern TypeScript-first stack including tRPC, Stripe, Kinde Auth, Prisma, and Pinecone. Clean UI, real-time UX, and complete SaaS capabilities from auth to billing.",
+      "A full-stack AI-powered markdown notes SaaS featuring intelligent PDF viewing, streaming AI responses, and infinite memory via LangChain. Built with a modern TypeScript-first stack including tRPC, Stripe, Kinde Auth, Prisma, and Pinecone. Clean UI, real-time UX.",
     image: "/imgs/memora.png",
     tags: [
       "Next.js",
