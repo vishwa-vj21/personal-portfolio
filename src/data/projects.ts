@@ -55,9 +55,31 @@ export const projects: Project[] = [
       live: "", // add live URL if hosted
     },
   },
-
   {
     id: 4,
+    title: "Memora – AI Markdown Notes SaaS",
+    description:
+      "A full-stack AI-powered markdown notes SaaS featuring intelligent PDF viewing, streaming AI responses, and infinite memory via LangChain. Built with a modern TypeScript-first stack including tRPC, Stripe, Kinde Auth, Prisma, and Pinecone. Clean UI, real-time UX, and complete SaaS capabilities from auth to billing.",
+    image: "/imgs/memora.png",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "tRPC",
+      "LangChain",
+      "Stripe",
+      "Kinde",
+      "Pinecone",
+      "Prisma",
+      "Tailwind CSS",
+      "shadcn-ui",
+    ],
+    links: {
+      github: "https://github.com/vishwa-vj21/Memora",
+      live: "",
+    },
+  },
+  {
+    id: 5,
     title: "ResumeRadar – AI-Powered Resume Analyzer",
     description:
       "An NLP-based resume screening tool that extracts, scores, and recommends skills based on job relevance using PyResparser, spaCy, and LLM insights.",
