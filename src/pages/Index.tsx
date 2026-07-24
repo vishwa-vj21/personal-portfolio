@@ -16,7 +16,7 @@ import Seo from "@/components/Seo";
 
 const sections = [
   "home",
-  "about",
+  // "about",
   "projects",
   "skills",
   "achievements",
@@ -62,7 +62,7 @@ const Index = () => {
       <Navbar />
       <Scrollspy items={sections} currentClassName="active" offset={-50}>
         <HeroSection />
-        <AboutSection />
+        {/* <AboutSection /> */}
         <ProjectsSection />
         <SkillsSection />
         {/* <AchievementsSection /> */}
